@@ -20,9 +20,9 @@ python3 train.py  --type_model 0
 ```
 ### predict 
 ```bash
-python3 predict.py  --weights static_parameters_IterEnd
+python3 predict.py --type_model 1 --weights static_parameters_IterEnd
 or 
-python3 predict.py  --weights dyna_parameters_IterEnd --type_model 0
+python3 predict.py --type_model 0 --weights dyna_parameters_IterEnd
 ```
 
 You can use your own datasets with these commands ```--train_file```,```--test_file``` and ```--w2v_file```. <br>
