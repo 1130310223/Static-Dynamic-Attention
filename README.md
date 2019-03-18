@@ -30,3 +30,9 @@ You can use your own datasets with these commands ```--train_file```,```--test_f
 python3 train.py  --type_model 0  --train_file your_path/your_train_data  --w2v_file your_path/your_w2v
 python3 predict.py  --test_file your_path/your_test_data  --w2v_file your_path/your_w2v  --weights static_parameters_IterEnd 
 ```
+
+## Others
+###Hybrib Attention
+A combination of static and dynamic attention, not presented in the coling2018 paper. Refer to ```/hybrid```
+###PersonaChat Dataset
+ConvAI2 persona-chat dataset:[http://convai.io/#personachat-convai2-dataset](ConvAI2dataset)
