@@ -32,7 +32,7 @@ python3 predict.py  --test_file your_path/your_test_data  --w2v_file your_path/y
 ```
 
 ## Others
-###Hybrib Attention
+### Hybrib Attention
 A combination of static and dynamic attention, not presented in the coling2018 paper. Refer to ```/hybrid```
-###PersonaChat Dataset
+### PersonaChat Dataset
 ConvAI2 persona-chat dataset:[http://convai.io/#personachat-convai2-dataset](ConvAI2dataset)
