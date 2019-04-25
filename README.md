@@ -35,4 +35,4 @@ python3 predict.py  --test_file your_path/your_test_data  --w2v_file your_path/y
 ### Hybrid Attention
 A combination of static and dynamic attention, not presented in the coling2018 paper. Refer to ```/hybrid```
 ### PersonaChat Dataset
-ConvAI2 persona-chat dataset:[http://convai.io/#personachat-convai2-dataset](ConvAI2dataset)
+ConvAI2 persona-chat dataset:[http://convai.io/#personachat-convai2-dataset](http://convai.io/#personachat-convai2-dataset)
